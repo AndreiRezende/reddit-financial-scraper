@@ -22,12 +22,19 @@ The script operates by:
 
 ## Setup and Installation
 1. **Clone this repository:**
+   
    `git clone https://github.com/AndreiRezende/reddit-financial-scraper`
+
 2. **Install dependencies:**
+   
    `pip install -r requirements.txt`
+   
    `python -m spacy download pt_core_news_lg`
+
 3. **Set up environment variables:**
+   
    Create a `.env` file in the project's root directory with your credentials.
+
    ```
    ID_REDDIT=your_reddit_client_id
    SECRET_REDDIT=your_reddit_client_secret
@@ -39,7 +46,9 @@ The script operates by:
    DATABASE_MONGODB=your_database_name
    COLLECTION_MONGODB=your_collection_name 
    ```
+
 4. **Run the scraper:**
+   
    `python reddit_web_scraping.py`
 
 ## Observations and Future Steps
