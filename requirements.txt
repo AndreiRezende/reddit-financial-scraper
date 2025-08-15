@@ -1,0 +1,4 @@
+praw
+pymongo
+spacy
+python-dotenv
